@@ -1,0 +1,147 @@
+.text 
+{
+    color:rgb(166, 255, 0); 
+}
+
+.text1
+{
+    text-align: left;
+}
+
+.lds-dual-ring,
+.lds-dual-ring:after {
+  box-sizing: border-box;
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6.4px solid currentColor;
+  border-color: currentColor transparent currentColor transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.frame{
+    width: 99vmin;
+    height: 75vmin;
+    background-color: #E3F2F9;
+    position: relative;
+    border-radius:5vmin;
+    z-index:-2;
+}
+.body{
+    position:absolute;
+    width:15vmin;
+    height:15vmin;
+    border:0.4vmin solid #594175;
+    border-radius:50%;
+    margin:6vmin 1vmin 1vmin 1.5vmin;
+}
+.donut{
+    width:5vmin;
+    height:5vmin;
+    border:0.4vmin solid #594175;
+    background-color:#E3F2F9;
+    position:absolute;
+    border-radius:50%;
+    top:4.5vmin;
+    left:4.5vmin;
+}
+.pandaear{
+    width:5vmin;
+    height:5vmin;
+    position:absolute;
+    background-color:#3E2161;
+    border-radius:50%;
+    z-index:-1;
+    top:-1vmin;
+}
+.pandaear::after, .bearear::after, .mouseear::after{
+    content:"";
+    width:5vmin;
+    height:5vmin;
+    position:absolute;
+    background-color:#3E2161;
+    border-radius:50%;
+    z-index:-1;
+    top:0vmin;
+    left:10vmin;
+}
+.pandaeye{
+     width:2vmin;
+    height:2.8vmin;
+    position:absolute;
+    background-color:#3E2161;
+    border-radius:50%;
+    left:3.7vmin;
+    top:1.6vmin;
+    transform:rotate(35deg);
+}
+.pandaeye::after{
+    content:"";
+    left:4.5vmin;
+    top:-3vmin;
+    width:2vmin;
+    height:2.8vmin;
+    position:absolute;
+     background-color:#3E2161;
+    border-radius:50%;
+    transform:rotate(-66deg);
+}
+.pandapupil{
+    position:absolute;
+    width:0.7vmin;
+    height:0.7vmin;
+    background-color:#FAF2E6;
+    top:2.5vmin;
+    left:4.5vmin;
+    border-radius:50%;
+    box-shadow:5vmin 0vmin 0vmin 0vmin #FAF2E6;
+}
+.pandanose{
+    width:1vmin;
+    height:0.6vmin;
+    position:absolute;
+    background-color:#3E2161;
+    border-radius:45%;
+    left:2.5vmin;
+    top:0.1vmin;
+}
+.pandanose1{
+    width:0.3vmin;
+    height:0.3vmin;
+    position:absolute;
+    background-color:#FAF3E5;
+    border-radius:45%;
+    left:3vmin;
+    top:0.2vmin;
+    border:0.4vmin solid #3E2161;
+    border-color: transparent #3E2161 #3E2161 #3E2161;
+}
+.pandanose2{
+    width:0.3vmin;
+    height:0.3vmin;
+    position:absolute;
+    background-color:#FAF3E5;
+    border-radius:45%;
+    left:1.9vmin;
+    top:0.2vmin;
+    border:0.4vmin solid #3E2161;
+    border-color: transparent #3E2161 #3E2161 #3E2161;
+}
